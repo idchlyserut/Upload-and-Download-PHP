@@ -37,8 +37,8 @@ if (isset($_POST['save'])) { // if save button on the form is clicked
             echo "Failed to upload file.";
         }
     }
-
 }
+
 // Downloads files
 if (isset($_GET['file_id'])) {
     $id = $_GET['file_id'];
@@ -68,4 +68,3 @@ if (isset($_GET['file_id'])) {
     }
 
 }
-?>
